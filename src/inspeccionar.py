@@ -15,7 +15,7 @@ from anomalib.models import Patchcore
 from PIL import Image
 
 warnings.filterwarnings("ignore")
-logging.getLogger("lightning").setLevel(logging.ERROR)
+logging.getLogger("lightning").setLevel(logging.ERROR)# estas dos lineas hacen que lightning y _fabric solo cojas ese log en el caso unicamente de que sea error, no info o warnings,
 logging.getLogger("lightning_fabric").setLevel(logging.ERROR) # sin estas lineas el terminal se llenaria de cosas muy tecnicas de la prediccion
 
 #  leer y comprobar los argumentos
