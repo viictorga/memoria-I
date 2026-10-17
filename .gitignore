@@ -1,0 +1,16 @@
+# entorno virtual de Python
+.venv/
+venv/
+__pycache__/
+
+# Dataset MVTec AD (no creo que lo llegue a tener instalado entero, por si acaso no lo subo, tiene muchisimo tamaño)
+datasets/
+
+# Modelos entrenados (tienen muchisimo tamaño)
+modelos/
+
+# Salidas de la herramienta y carpetas temporales de Anomalib
+salida/
+
+
+

@@ -1,0 +1,4 @@
+modelo,categoria,tiempo_entrenamiento_s,image_AUROC,image_F1Score,pixel_AUROC,pixel_F1Score
+PatchCore,bottle,85.4,1.0,0.992,0.9856,0.7268
+PatchCore,screw,191.6,0.9639,0.9551,0.989,0.3724
+PatchCore,metal_nut,92.9,0.998,0.9838,0.9869,0.8401
